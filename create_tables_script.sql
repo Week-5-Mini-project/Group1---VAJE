@@ -38,3 +38,5 @@ VALUES
     (2021), 
     (2022);
 
+ALTER TABLE fact_trade
+ADD PRIMARY KEY(country_code, year);
