@@ -4,16 +4,16 @@ DROP TABLE IF EXISTS fact_trade;
 
 
 CREATE TABLE IF NOT EXISTS fact_trade(
-	country_code VARCHAR(3)
+	country_code TEXT
 	,year INT
-	,life_ladder DECIMAL
-	,central_government_debt DECIMAL
-	,goods_exports DECIMAL
-	,service_exports DECIMAL
-	,goods_imports DECIMAL
-	,service_imports DECIMAL
-	,GDP_per_capita DECIMAL
-	,GDP_growth DECIMAL
+	,life_ladder REAL
+	,central_government_debt REAL
+	,goods_exports BIGINT
+	,service_exports BIGINT
+	,goods_imports BIGINT
+	,service_imports BIGINT
+	,GDP_per_capita REAL
+	,GDP_growth REAL
 	
 );
 
