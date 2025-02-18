@@ -25,3 +25,16 @@ CREATE TABLE IF NOT EXISTS dim_country(
 CREATE TABLE IF NOT EXISTS dim_date (
 	year INT
 );
+
+INSERT INTO dim_date (year) 
+VALUES 
+    (2014), 
+    (2015), 
+    (2016), 
+    (2017), 
+    (2018), 
+    (2019), 
+    (2020), 
+    (2021), 
+    (2022);
+
