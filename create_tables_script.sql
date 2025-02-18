@@ -14,7 +14,9 @@ CREATE TABLE IF NOT EXISTS fact_trade(
 	,service_imports BIGINT
 	,GDP_per_capita REAL
 	,GDP_growth REAL
-	
+	,unemployment_total REAL
+	,itc_service_exports REAL
+	,consumer_prices_inflation REAL
 );
 
 CREATE TABLE IF NOT EXISTS dim_country(
