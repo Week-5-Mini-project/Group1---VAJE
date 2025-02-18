@@ -4,7 +4,7 @@ Week 5 - Mini project
 ## Settting database
 - Run `create_tables_script.sql` to create tables
 - Import data from `dim_country.csv` to `dim_country` table
-- Import data from `clean_data_v2` to `fact_trade` table
+- Import data from `fact_trade.csv` to `fact_trade` table
 
 ## Database explained
 
@@ -23,3 +23,5 @@ Columns:
 - `unemployment_total_percent` percent of unemployed citizens
 - `itc_service_exports` US$
 - `consumer_prices_inflation` percent of inflation in consumer prices
+- `gdp` gross domestic product
+- `population` population of given country in given year
