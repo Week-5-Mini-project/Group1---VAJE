@@ -1,7 +1,7 @@
 # Group1
 Week 5 - Mini project 
 
-## Settting database
+## Setting database
 - Run `create_tables_script.sql` to create tables
 - Import data from `dim_country.csv` to `dim_country` table
 - Import data from `fact_trade.csv` to `fact_trade` table
