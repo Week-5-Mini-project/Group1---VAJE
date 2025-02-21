@@ -21,10 +21,23 @@ CREATE TABLE IF NOT EXISTS fact_trade(
 	,population BIGINT
 );
 
+COPY fact_trade
+FROM PROGRAM 'curl -s https://raw.githubusercontent.com/Week-5-Mini-project/Group1---VAJE/refs/heads/main/fact_trade.csv'
+DELIMITER ','
+CSV Header;
+
+
 CREATE TABLE IF NOT EXISTS dim_country(
 	country_code VARCHAR (3)
 	,country_name TEXT
 );
+
+COPY dim_country
+FROM PROGRAM 'curl -s https://raw.githubusercontent.com/Week-5-Mini-project/Group1---VAJE/refs/heads/main/dim_country.csv'
+DELIMITER ','
+CSV Header;
+
+
 
 CREATE TABLE IF NOT EXISTS dim_date (
 	year INT
