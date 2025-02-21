@@ -2,9 +2,7 @@
 Week 5 - Mini project 
 
 ## Setting database
-- Run `create_tables_script.sql` to create tables
-- Import data from `dim_country.csv` to `dim_country` table
-- Import data from `fact_trade.csv` to `fact_trade` table
+- Run `create_tables_script.sql` to create tables and add data from git to the database
 
 ## Database explained
 
